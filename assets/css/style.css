@@ -1,0 +1,737 @@
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+:root{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+
+img{
+	max-width: 100% !important;
+	width: 100%;
+    
+}
+#counter img{
+	width:30%
+}
+
+
+
+
+/*********** typography****************/
+/* devanagari */
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(../web-fonts/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
+	unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+  }
+  /* latin-ext */
+  @font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(../web-fonts/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(../web-fonts/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/***********yellow section***************/
+
+.yellow-section{
+	padding: 3rem;
+	background: #fcc302;
+}
+
+.yellow-section .row{
+	justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}	
+.yellow-section .row .card-img{
+	text-align: center;
+}	
+ .yellow-section-title{
+text-align: center;
+color: white;
+font-size: 50px;
+}
+.yellow-section-paragraph{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+
+
+/******card**********/
+
+
+.yellow-section .card{
+padding: 2rem;
+text-align: center;
+}
+.yellow-section .mycard-title{
+text-align: center;
+color: white;
+padding: 20px;
+}
+.yellow-section .mycard-paragraph{
+text-align: center;
+color: white;
+font-size: 20px;
+}
+
+/*************white section***************/
+.white-section{
+    padding: 4rem;
+    background: #fff;
+    color:#313243;
+}
+
+.white-section .row{
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}	
+.white-section .title{
+	text-align: center;
+	color: #313243;
+	font-size: 50px;
+	padding: 10px 0;
+	;
+	}
+	.white-section .paragraph{
+		text-align: center;
+		color: #313243;
+		font-size: 20px;
+	}
+/******************** navbar styling ************************************/
+
+.navbar-row{
+	background-color: #daac00;
+}
+.navbar{
+	width:100%;
+	padding: 16px 8px;
+	margin: 0 7px;
+	
+}
+.navbar-toggler-icon{
+	color:white;
+}
+.navbar .nav-item{
+	padding: 0 13px;
+}
+.nav-item .nav-link{
+	font-size:23px;
+	color:white;
+	padding: 0 20px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+.navbar .form-inline{
+	justify-content: center;
+}
+.search-input::placeholder {
+	color: #fff;
+	opacity:1;
+
+  }
+input.form-control.search-input {
+
+    border-radius: 0;
+    background:#fcc302;
+	box-shadow: 5px ;
+	border: 0;
+	color: #fff;
+}
+.search-btn{
+	background-color: #00bec9;
+	color:white;
+	border-radius: 0;
+}
+
+/******************* header section *************************/
+.header{
+	background-color: #fcc302;
+}
+.row.banner{
+	padding: 3.5rem 3.5rem 10px;
+	color:white;
+}
+.row.banner .col-md-8{
+	padding: 4rem;
+}
+.banner button{
+	margin: 5px 0;
+}
+.big-heading{
+	font-size: 65px;
+	margin: 20px 0;
+}
+.header-paradraph{
+	font-size: 29px;
+	margin: 30px 0;
+}
+.banner button{
+	font-size: 20px;
+	margin-right:  20px;;
+}
+.contact-button{
+	background: #00bec9;
+	color:white;
+}
+/* 
+Call to Action section*/
+
+.cta{
+
+	font-family: 'Poppins', sans-serif;
+	margin:2rem;
+	padding: 3rem;
+}
+.cta .cta-text{
+	padding: 2rem;
+
+}
+.cta-heading{
+	color:#313243;
+	font-size:50px;
+	font-weight: 600;
+	margin: 20px 0;
+
+}
+.cta-paragraph{
+	font-size: 29px;
+	margin: 20px 0;
+}
+.cta-btn{
+	background: #fcc302;
+	color:white;
+}
+/* call to action 1*/
+#cta-play-btn{
+	position: absolute;
+	top: 40%;
+    right: 40%;
+}
+#cta-play-btn, #cta-1-play-btn{
+	width:10% !important;
+}
+
+
+/* Call to Action Section 2 */
+#cta-1-play-btn{
+	position: absolute;
+	top: 50%;
+	right: 50%;
+}
+#cta-2 .cta-heading , #cta-2 .cta-paragraph, #cta-2 .cta-btn{
+	text-align: right;
+}
+.cta-btn-div{
+	justify-content: flex-end;
+    display: flex;
+}
+
+
+
+
+/* pricing section */
+.stike-through{
+	text-decoration: line-through;
+	padding: 10px;
+	margin: 10px;
+}
+
+	.buy{
+		border-radius: 40px;
+		background:#00bec9 ;
+		color: #fff;
+		margin-bottom: 20px;
+	}
+	.buy-btn-div{
+		text-align: center;
+	}
+
+	
+	
+	/****team card**********/
+	.team-card{
+	padding: 2rem;
+	text-align: center;
+	}
+	.team-card-title{
+	text-align: center;
+	color: #313243;
+	padding: 10px 0 0 0;
+	font-size: 30px;
+	margin: 0
+	}
+	.team-card-paragraph{
+	text-align: center;
+	color: #313243;
+	font-size: 20px;
+	}
+	.social-icon-div{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.social-icon{
+		background: #fcc302;
+		border-radius: 100%;
+		color: #fff;
+		padding: 10px;
+		margin: 0 5px;
+	}
+    /********counter ***************/
+    #counter{
+        background-image: url('../images/counter-background.jpg');
+		background-position: center; /* Center the image */
+		background-repeat: no-repeat; /* Do not repeat the image */
+		background-size: cover; /* Resize the background image to cover the entire container */
+		padding: 5rem 0;
+    }
+    #counter .mycard-title{
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 30px;
+    }
+    #counter .mycard-paragraph{
+        font-weight: 700;
+    }
+    #counter .column{
+        margin: 20px 0;
+    }
+
+
+
+
+    /**********************post section************************/
+    #post{
+        padding: 6em;
+    }
+    #post .title{
+        font-size: 75px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+    #post .paragraph{
+        font-size: 33px;
+    }
+    #post .card-deck .card-title{
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+    }
+    #post .card-deck .date{
+        font-size: 16px;
+        color:#00bec9;
+    }
+    #post .card-text{
+        font-size: 16px;
+    }
+    #post .read-btn{
+        font-size: 20px;
+        font-weight: 600;
+        color:#00bec9;
+    }
+    /************footer****************/
+    footer{
+        background:#343434;
+        padding: 5em;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        text-align: left;
+    }
+    footer .row{
+        justify-content: space-between;
+    }
+footer .nav-link.main{
+    font-size: 37px;
+    font-weight: bold;
+}
+footer .nav-link{
+    font-size: 25px;
+   
+}
+footer .nav-item{
+    padding: 3px 0;
+}
+footer .desc .search-input{
+    padding: 32px;
+}
+footer .desc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+footer .desc .search-btn{
+    padding: 19px 25px;
+}
+footer .desc .form-inline{
+	flex-wrap: nowrap;
+}
+footer .social-icon-div{
+    margin-top: 10px;
+}
+footer .social-icon{
+    color: #343434;
+    background-color: #fff;
+
+}
+
+   
+    
+	/*******************************************************************media queries***************************************************************/
+
+	@media all and (max-width:1253px){
+		/*************header section***************/
+        .navbar .form-inline{
+            flex-wrap: nowrap;
+        }
+		.header-img{
+			display: none;
+		}
+    
+
+	}
+	@media screen and (max-width:1156px) {
+		footer .nav-link.main{
+			font-size: 30px;
+			font-weight: bold;
+		}
+		footer .nav-item .nav-link {
+			font-size: 20px;
+		
+		}
+		
+	}
+    @media all and (max-width:1088px){
+		/*****************call to action*********************/
+        .cta .cta-text {
+             padding: 2rem 0;
+        }
+	/*************************footer************************/
+	footer .desc .search-input {
+		padding: 18px;
+	}
+	footer .desc .search-btn {
+		padding: 6px 25px;
+	}
+	
+		footer .nav-item .nav-link {
+			font-size: 16px;
+		}
+        .desc .form-inline {
+            flex-wrap: nowrap;
+        }
+		.desc h1{
+			font-size: 32.5px;
+		}
+	.desc p{
+		text-align: right;
+	}
+    }
+	@media all and (max-width:992px){
+		footer .desc {
+			align-items: center;
+		}
+	}
+    @media all and (max-width:936px){
+		/***************yellow section*****************/
+		.yellow-section{
+			padding: 2rem;
+		}
+		 .yellow-section-title{
+		font-size: 35px;
+		}
+		.yellow-section-paragraph{
+			font-size: 20px;
+		}
+		
+		
+		/******card**********/
+		
+		
+		.yellow-section .card{
+		padding: 1rem;
+		
+		}
+		.yellow-section .mycard-title{
+			font-size: 20px;
+		}
+		.yellow-section .mycard-paragraph{
+		text-align: center;
+		color: white;
+		font-size: 15px;
+		}
+		
+		.buy-btn-div .btn{
+		padding:8px;
+		font-size: 15px;
+		}
+				/***************white section*****************/
+		.white-section .title{
+			font-size: 35px;
+		}
+		.white-section .paragraph{
+
+		font-size: 20px;
+		}
+			/***************team section*****************/
+			.team-card{
+				padding: 1rem;
+			
+				}
+				.team-card-title{
+				font-size: 20px;
+				
+				}
+				.team-card-paragraph{
+				font-size: 15px;
+				}
+				.social-icon{
+	
+					padding: 10px;
+					margin: 0 2px;
+				}
+
+				/***************post section*****************/
+	
+        #post{
+            padding: 3em;
+        }
+        #post .title{
+            font-size: 50px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        #post .paragraph{
+            font-size: 20px;
+        }
+        #post .card-deck .card-title{
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+        }
+        #post .card-deck .date{
+            font-size: 10px;
+            color:#00bec9;
+        }
+        #post .card-text{
+            font-size: 14px;
+        }
+        #post .read-btn{
+            font-size: 16px;
+            font-weight: 600;
+            color:#00bec9;
+        }
+			/***************footer section*****************/
+        footer .desc{
+          
+            align-items: center;
+            padding-top: 10px;
+           
+        }
+    }
+	@media screen and (max-width:626px) {
+
+		/***********header*************/
+		.row.banner{
+			padding: 20px;
+			
+		}
+		.row.banner .col-md-8{
+			padding: 0;
+		}
+		.big-heading{
+			font-size: 45px;
+			margin: 20px 0;
+		}
+		.header-paradraph{
+			font-size: 29px;
+			margin: 30px 0;
+		}
+		.banner button{
+			font-size: 20px;
+			margin-right:  20px;;
+		}
+		/******************yellow section*********************/
+		.yellow-section{
+			padding-left: 10;
+			padding-right: 10;
+		}
+		/******************call to action *******************/
+		#cta {
+			 margin: 0;
+			padding: 0;
+		}
+		#cta-2 .cta-heading , #cta-2 .cta-paragraph, #cta-2 .cta-btn{
+			text-align: left;
+		}
+		.cta-btn-div{
+			justify-content: flex-start;
+			display: flex;
+		}
+		.white-section .cta-text{
+			margin-left: 28px;
+			padding: 0;
+		}
+		.cta-btn{
+			margin-bottom: 10px;
+		}
+		#cta-2 .cta-text .cta-heading{
+			font-size: 45px !important; 
+		}
+		#cta-2 .cta-text .cta-paragraph{
+
+		font-size: 29px !important;
+		}
+		
+		/*************************card section**********************/
+		.mycard,.team-card{
+			margin-left: 0;
+			margin-right: 0;
+			padding-left: 0;
+			padding-right: 0;
+		}
+	/**********************white section **********************/
+		.white-section{
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.white-section .cta-heading{
+			font-size: 45px;
+		}
+		.white-section .cta-paragraph{
+
+		font-size: 29px;
+		}
+		
+		/**************************** post section **********************************/
+        #post{
+            padding: 10px;
+        }
+		
+		
+		
+		}
+        @media screen and (max-width:576px) {
+            #post{
+                padding: 2em;
+            }
+        }
+		@media screen and (max-width:457px) {
+			/*******************call to action ************************/
+			.cta{
+
+				
+				margin:1rem;
+				padding: 1.5rem;
+			}
+			.cta .cta-text{
+				padding: 2rem;
+			
+			}
+			.cta-btn{
+				padding: 5px;
+			}
+			.cta-heading{
+				color:#313243;
+				font-size:28px;
+				font-weight: 600;
+			
+			
+			}
+			.cta-paragraph{
+				font-size: 15px;
+				margin: 20px 0;
+			}
+			
+		}
+		@media screen and (max-width:415px) {
+			/*******************call to action ************************/
+			
+			.cta .cta-text{
+				padding: 0;
+			
+			
+			
+		}
+	}
+		@media screen and (max-width:376px) {
+			/********************header section************************/
+	
+
+.big-heading{
+	font-size: 45px;
+
+}
+.header-paradraph{
+	font-size: 26px;
+	
+}
+.banner button{
+	font-size: 15px;
+	margin-right:  20px;
+}
+/******************white section ******************/
+.white-section {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.white-section .cta-text {
+  
+    margin-right: 20px;
+
+}
+/*********************** Call to action ************************/
+.cta {
+	margin: 10px 0;
+	padding: 0;
+}
+.white-section .cta-heading{
+	font-size:35px;
+
+}
+.white-section .cta-paragraph{
+	font-size: 20px;
+
+}
+#cta-2 .cta-text .cta-heading {
+	font-size:35px !important;
+
+}
+#cta-2 .cta-text .cta-paragraph{
+	font-size: 20px !important;
+
+}
+.cta-btn{
+	padding: 10px;
+	font-size: 15px;
+}
+/******************************post***************************/
+#post .title{
+	font-size: 35px;
+
+}
+#post .paragraph{
+	font-size: 20px;
+}
+
+		}
+
+		
