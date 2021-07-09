@@ -13,15 +13,16 @@ img{
 	width: 100%;
     
 }
-#counter img{
-	width:30%
-}
 body{
 	max-width: 1340px;
 	margin-left: auto;
 	margin-right: auto;
 	
 }
+#counter img{
+	width:30%
+}
+
 
 
 
