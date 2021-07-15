@@ -735,9 +735,12 @@ footer .social-icon{
 		}
 	}
 		@media screen and (max-width:376px) {
-		.navbar-toggler {
-				display: contents;
-			}	/********************header section************************/
+			/******************navbar *********************/
+.navbar-toggler {
+display: contents;
+}	
+			
+/********************header section************************/
 	
 
 .big-heading{
